@@ -29,11 +29,14 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
+
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block ;
-    background: #5f2c82 url(../imagens/ChatGPT\ Image\ 21\ de\ mai.\ de\ 2025\,\ 10_17_35.png); 
+    background: #5f2c82 url(../imagens/ChatGPT\ Image\ 21\ de\ mai.\ de\ 2025\,\ 10_17_35.png) no-repeat; 
     background-size: cover;
     background-position: center;
     height: 200px;
